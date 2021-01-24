@@ -1,0 +1,1 @@
+For each query output **the size of the set S**  in a new line which is described in the problem statement.

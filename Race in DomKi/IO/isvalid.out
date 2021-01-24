@@ -1,0 +1,49 @@
+Case 1:
+The number of nodes is 16
+Done!!!
+N = 16 Q = 66048
+Case 2:
+The number of nodes is 21
+Done!!!
+N = 37 Q = 110568
+Case 3:
+The number of nodes is 13
+Done!!!
+N = 50 Q = 122448
+Case 4:
+The number of nodes is 15
+Done!!!
+N = 65 Q = 122458
+Case 5:
+The number of nodes is 31
+Done!!!
+N = 96 Q = 122551
+Case 6:
+The number of nodes is 1
+Done!!!
+N = 97 Q = 122554
+Case 7:
+The number of nodes is 10
+Done!!!
+N = 107 Q = 122558
+Case 8:
+The number of nodes is 150000
+Done!!!
+N = 150107 Q = 322558
+Case 9:
+The number of nodes is 20000
+Done!!!
+N = 170107 Q = 342558
+Case 10:
+The number of nodes is 1000
+Done!!!
+N = 171107 Q = 343558
+Case 11:
+The number of nodes is 200000
+Done!!!
+N = 371107 Q = 543558
+Case 12:
+The number of nodes is 28893
+Done!!!
+N = 400000 Q = 550000
+N = 400000 Q = 550000

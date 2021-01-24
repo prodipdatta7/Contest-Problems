@@ -1,0 +1,12 @@
+There is a kingdom called DomKi. There are ***N*** cities and ***N – 1*** bidirectional roads in DomKi. The cities of DomKi are connected to each other in such a way that it forms a [Tree](https://en.wikipedia.org/wiki/Tree_(graph_theory). <br><br>
+Recently a dangerous virus called corona has attacked the kingdom and the people in several cities are affected by the disease COVID-19 (which is caused by the corona virus). The infection of the virus has been declared as an epidemic in DomKi.<br><br>
+As COVID-19 - spreads from person to person in close proximity, similar to other respiratory illnesses, such as the flu, some cities in DomKi are under lockdown to ensure social distancing.<br>
+Due to lockdown, some roads also became unavailable to use.<br><br>
+Now there is a group of people who may stay in different cities. For an important issue they all want to meet in a specific city if possible. But there is a strange rule is followed by them. They all want to choose a city in such a way that the selected city is reachable by all of them and everyone has to travel the same distance from their residence city to the selected city through the shortest path.<br><br>
+**The distance between two cities in DomKi is the number of roads between them in the shortest path.**
+																											![](//uploads.drafts.toph.co/images/567d8be704469e541a00030a-1588403919598541454-3108138781323191767-9cba6668306119a4591ebdb499d5b18f.jpg)<br>
+Suppose there are 10 cities in DomKi numbered from 1 to 10 and 9 roads shown in the above picture. The number (***0 or 1***) associated with each road determines whether this road is available or not (***Note that, 0 means the road is not available and 1 means available***). <br><br>
+Let there is a group consist of **2** people, numbered **4** and **6**, wants to meet each other. Then there is a possible set (say ***S***) of **4** different cities they can select to meet which is, ***S = {2, 1, 3, 7}***. The shortest distance from city **4** to each city in ***S*** and city **6** to each city in ***S*** is **identical.**<br><br>
+**Note that, city 5, 9 and 10 are also same distance away from city 4 and 6 but they are not reachable.**<br><br>
+Now the task is to count the size of the set ***S*** for a given group of people.<br>
+**It is to be observed that, a group may consist of 1 people also.** <br>

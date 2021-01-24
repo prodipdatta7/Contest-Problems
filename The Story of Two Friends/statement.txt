@@ -1,0 +1,2 @@
+How many positive integers not exceeding n are there which is the multiples of
+a or b but not c.

@@ -1,0 +1,8 @@
+3
+25 4 33
+abcba
+abbaa
+abacaba
+2
+abb 2 3
+abcd 1 3

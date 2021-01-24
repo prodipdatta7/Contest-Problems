@@ -1,0 +1,18 @@
+Date: 7:34 PM 5/16/2020
+
+You are given the int N, the int[]s edge and int[]s val, and the ints D, seed. Use the pseudocode below to generate the edges of the tree and the values of all its nodes.
+
+A[0] = seed
+for i = 1 to 2*N-1:
+    A[i] = (A[i-1] * 1103515245 + 12345) modulo 2147483648
+
+V = val
+for i = size(val) to N-1:
+    V[i] = A[i]
+
+E = edge
+for i = size(edge) to N-1:
+    E[i] = A[N+i] modulo min(i,D)
+
+for i = 1 to N-1:
+    the tree contains an edge between i and E[i]
